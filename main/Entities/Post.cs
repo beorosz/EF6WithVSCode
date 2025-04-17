@@ -8,6 +8,9 @@ namespace EF6Test.Entities
 
         public int BlogId { get; set; }
 
+        /// <summary>
+        /// Property added just for demonstration purposes
+        /// </summary>
         public Role Role { get; set; }
         public virtual Blog Blog { get; set; }
     }
